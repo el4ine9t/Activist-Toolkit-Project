@@ -1,0 +1,111 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'EB Garamond' , serif;
+  text-align: center;
+  color: black;
+  background-color: #fcd9db; 
+}
+
+header {
+  padding-top: 50px;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin: 1px;
+}
+
+h1 {
+  font-size:3em;
+  padding-top:1em;
+  padding-bottom:1em;
+  color: white;
+  text-align:center;
+  text-shadow: 2px 2px 2px #f5767c;
+}
+
+h3{
+  margin-right:20em;
+  color:#f5767c;
+  margin-top:1em;
+  margin-bottom:1em;
+  text-shadow: 2px 2px 2px #black;
+  
+}
+
+ul{
+  list-style-type: none;
+  background-color:#f28a8f;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  text-decoration: none;
+  color:white;
+  font-size:1.5em;
+  padding: 1em;
+  text-shadow: 0.5px 0.5px 0.5px #f28a8f
+}
+
+li a:hover {
+  background-color: #f5767c;
+}
+
+#mainparagraph, #firstparagraph, #secondparagraph, #thirdparagraph{
+  margin-right: 20em;
+  font-size: 1.2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 50%;
+  border: 40px
+
+}
+#vidparagraph{
+  font-size:1.2em;
+  border:40px;
+  margin-right:20em;
+}
+#mainimg, #firstimg, #secondimg, #thirdimg{
+  margin-left: 20em;
+  width: 20em;
+  height: 20em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.half{
+  flex: 50%
+  padding: 5px;
+}
+
+.graphic{
+  display: flex;
+}
+
+#factgenerator{
+  font-size:2em;
+  color: white;
+  text-align:center;
+  text-shadow: 2px 2px 2px #f5767c;
+}
+
+#mybutton{
+  color:#f5767c
+}
+
+#video{
+  text-align: center;
+  width: 585px;
+  height:329px;
+}
+
+p{
+  padding: 30px
+}
